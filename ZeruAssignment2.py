@@ -2,12 +2,12 @@ import pandas as pd
 import requests
 import time
 import os
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 
 # Load environment variables from .env file
-# load_dotenv()
+load_dotenv()
 
 # Configuration
 ETHERSCAN_API_KEY=os.getenv('ETHERSCAN_API_KEY') # Retrieve API key from environment variable
